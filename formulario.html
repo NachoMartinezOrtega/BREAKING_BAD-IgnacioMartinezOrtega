@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body class="formulario-page">
+    <div class="Formulario-contenedor">
+        <h1>Breaking Bad – ¡Que comience el juego!</h1>
+
+        <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Formulario</legend>
+
+                Nombre y apellidos: <input type="text" name="nombre" placeholder="Nombre y apellidos" required>
+                <br><br>
+
+                Dirección: <input type="text" name="direccion" placeholder="C.Los vengadores, 21" required>
+                <br><br>
+
+                Piso/Chalet: <input type="text" name="piso" placeholder="Piso/Chalet (opcional)">
+                <br><br>
+
+                C.Postal - Ciudad: <input type="text" name="codigo_postal" placeholder="28300-Madrid" required>
+                <br><br>
+
+                DNI: <input type="text" name="dni" placeholder="50576868V" required>
+                <br><br>
+
+                Correo Electrónico: <input type="email" name="correo" placeholder="raul-luis@unir.fp" required>
+                <br><br>
+
+                Sexo:
+                <input type="radio" name="sexo" value="Hombre"> Hombre
+                <input type="radio" name="sexo" value="Mujer"> Mujer
+                <br><br>
+
+                Fecha de nacimiento: <input type="date" name="fecha_nacimiento" required>
+                <br><br>
+
+                Personaje favorito:
+                <select name="personaje">
+                    <option value="jessie">Jessie Pinkman</option>
+                    <option value="walter">Walter White</option>
+                    <option value="saul">Saul Goodman</option>
+                    <option value="gustavo">Gustavo Fring</option>
+                    <option value="pollos">Pollos Hermanos</option>
+                    <option value="otros">Otros personajes</option>
+                </select>
+                <br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Opinión</legend>
+                <textarea name="opinion" placeholder="Escribe tu opinión aquí" maxlength="500"></textarea>
+            </fieldset>
+
+            <fieldset>
+                Adjuntar archivos: <input type="file" name="adjunto" accept=".pdf" multiple>
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </fieldset>
+        </form>
+</body>
+
+</html>
