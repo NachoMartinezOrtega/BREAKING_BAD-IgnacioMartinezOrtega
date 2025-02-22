@@ -1,0 +1,468 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background-color: #0c3e11;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+/* INDEX */
+body.index-page {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'FuenteBreakingBad';
+    src: url('../FUENTE/Breaking\ Bad.ttf') format('truetype');
+}
+
+.index-page h1 {
+    font-family: 'FuenteBreakingBad';
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    background-image: url('../img/poster.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+/* FIN INDEX ESTRUCTURA */
+body.formulario-page {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+h1 {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*FORMULARIO*/
+.Formulario-contenedor {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(116, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form fieldset {
+    border: 1px solid #fcfefc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form legend {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-top: 0;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* TABLA PERIODICA */
+#cabecera {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    aspect-ratio: 16/9;
+    /* He tenido que meter esto para que me fuese, en uno de mis mopnitores iba y en el otro no */
+    margin: 0 auto;
+    background-image: url("/img/cabecera.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.tabla-page {
+    background-color: #0c3e11;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+
+table,
+tr,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 8px solid #34352F;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: #34352F;
+    height: 80px;
+    width: 80px;
+
+}
+
+.letra {
+    color: #34342c;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 0.5px;
+    font-style: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 750;
+}
+
+.elemento {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+/*COLORES AGRUPADOS POR ID */
+
+#waltersFamily {
+    background-color: #B7DB21;
+}
+
+#lawEnforcment {
+    background-color: #EFF6CD;
+}
+
+#waltsOperation {
+    background-color: #88A517;
+}
+
+#jessesFriends {
+    background-color: #637028;
+}
+
+#salamancaCrew {
+    background-color: #C5E24A;
+}
+
+#gusOperation {
+    background-color: #BCC49F;
+}
+
+#mexicanCartel {
+    background-color: #828D51;
+}
+ 
+#AdditionalCharacters {
+    background-color: #D5E97A;
+}
+
+#additionalElements{
+    background-color: #C2C629;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGENES TABLA PERIODICA */
+#walter {
+    background-color: #B7D92E;
+    background-image: url("../img/walterwhite.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 90%;
+    padding-top: 80px;
+
+}
+
+#hector {
+    background-image: url("../img/hectorsalamanca.png");
+    background-color: #c5e24a;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 80px;
+
+}
+
+#tuco {
+    background-image: url("../img/tucosalamanca.png");
+    background-color: #c5e24a;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 80px;
+
+}
+
+#gustavo {
+    background-image: url("../img/gustavofrink.png");
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 65px;
+    padding-bottom: 80px;
+
+}
+
+#skyler {
+    background-image: url("../img/skylerwhite.png");
+    background-color: #B7D92E;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 80px;
+    padding-bottom: 60px;
+}
+
+#saul {
+    background-image: url("../img/saulgoodman.png");
+    background-color: #89a419;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 85px;
+}
+
+#jessie {
+    background-image: url("../img/jessiepinkman.png");
+    background-color: #89a419;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 85px;
+}
+
+#marie {
+    background-image: url("../img/marieschrader.png");
+    background-color: #AB8ECE;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 85px;
+}
+
+#badger {
+    background-image: url("../img/badger.png");
+    background-color: #637126;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 90px;
+}
+
+#mike {
+    background-image: url("../img/mike.png");
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 90%;
+    padding-bottom: 80px;
+}
+
+#gale {
+    background-image: url("../img/gale.png");
+    background-color: #bcc49f;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 87%;
+    padding-bottom: 85px;
+}
+
+#hank {
+
+    background-image: url("../img/hankschrader.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#cristal {
+    background-image: url("../img/cristal.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#rv {
+    background-image: url("../img/bus.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#pizza {
+    background-image: url("../img/pizza.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#pistola {
+    background-image: url("../img/pistola.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#calzones {
+    background-image: url("../img/calzoncillos.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#pocima {
+    background-image: url("../img/pocima.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#mascara {
+    background-image: url("../img/mascara.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#phone {
+    background-image: url("../img/movil.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#plato {
+    background-image: url("../img/plato.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
+#mosca {
+    background-image: url("../img/mosca.png");
+    background-repeat: no-repeat;
+    background-color: #c2c629;
+    background-position: center;
+    background-size: contain;
+}
+
