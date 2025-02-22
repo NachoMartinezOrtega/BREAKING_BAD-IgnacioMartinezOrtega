@@ -16,7 +16,7 @@ body {
 
 /* INDEX */
 body.index-page {
-    background-image: url('../img/fondo.jpg');
+    background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -27,12 +27,12 @@ body.index-page {
 }
 
 @font-face {
-    font-family: 'FuenteBreakingBad';
-    src: url('../FUENTE/Breaking\ Bad.ttf') format('truetype');
+    font-family: "FuenteBreakingBad";
+    src: url("../FUENTE/Breaking\ Bad.ttf") format("truetype");
 }
 
 .index-page h1 {
-    font-family: 'FuenteBreakingBad';
+    font-family: "FuenteBreakingBad";
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
@@ -51,7 +51,7 @@ body.index-page {
     height: 300px;
     border: 10px outset brown;
     border-radius: 22px;
-    background-image: url('../img/poster.jpg');
+    background-image: url("../img/poster.jpg");
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -67,7 +67,7 @@ body.index-page {
 .logo {
     width: 200px;
     height: 200px;
-    background-image: url('../img/logo.png');
+    background-image: url("../img/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@ body.index-page {
 
 /* FIN INDEX ESTRUCTURA */
 body.formulario-page {
-    background-image: url('../img/fondo.jpg');
+    background-image: url("../img/fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
